@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    background-color: black
+}
+
+header {
+    padding: 40px 50px 10px 50px;
+    background-color: #141414;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 160px;
+    height: 33px;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.menu a {
+    font-family: "DM Sans";
+    color: white;
+    text-decoration: none;
+    font-weight: 400px;
+    font-size: 17px;
+}
+
+.menu a:hover {
+    color: #118DA8;
+}
+
+.hero {
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px;
+}
+
+.image {
+    width: 650px;
+    height: 873.44px;
+    margin-left: 25px;
+}
+
+.content {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    width: 526px;
+    margin-left: 100px;
+    left: 320px;
+    height: 176;
+}
+
+.content h2 {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-size: 70px;
+    font-weight: 400;
+    color: white;
+    line-height: 88px;
+    margin-top: 300px;
+    margin-bottom: 80px;
+    left: 320px;
+}
+
+.content h2 span {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-size: 75px;
+    font-weight: 400
+}
+
+.content p {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    left: 320px;
+}
+
+.platforms {
+    margin-top: 20px;
+    left: 320px;
+    width: 526px;
+    height: 176px;
+}
+
+.icons {
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+}
+.div {
+    margin: auto;
+    height: 5990px;
+    width: 1599px;
+    background-color: #141414
+}
+
+.episodes {
+    display: flex;
+    justify-content: space-between;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+    padding: 40px 50px 10px 50px;
+    align-items: center;
+}
+.button{
+    background-color: #118DA8;
+    color: white;
+    width: 178px;
+    height: 51px;
+    padding: 6px;
+    border-radius: 6px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0;
+}
+.information_of_episode{
+    border-width: 1300px;
+    height: 545px;
+    border-radius: 32px;
+    border-color: #000000;
+    background-color: black;
+    margin: 150px;
+    display: flex;
+
+}
+
+.images{
+    width: 380px;
+    height: 465px;
+    margin: 50px;
+}
+.text{
+    width: 73px;
+    height: 27px;
+    border-radius: 10px;
+    background-color: #191919;
+    margin-top: 60px;
+}
+.text_in_to_the_div{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    width: 41px;
+    height: 27px;
+    margin: auto;
+}
+.text_of_episode{
+    width: 82px;
+    height: 27px;
+    color: #118DA8;
+    margin: 40px;
+    margin-left: 0;
+}
+.text_container{
+    display: flex;
+    flex-direction: column;
+}
+.texts {
+    width: 701px;
+    height: 141px;
+    top: 127.56px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 70.4px;
+    letter-spacing: 2.56px;
+}
+.textss{
+    width: 757px;
+    height: 99px;
+    top: 296.56px;
+}
+.svoy{
+    width: 757px;
+    height: 99px;
+    top: 296.56px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0;
+    margin: 30px;
+    margin-left: 0px;
+    color: #FFFFFFB2;
+}
+.button_v2{
+    background-color: #118DA8;
+    color: white;
+    width: 208px;
+    height: 51px;
+    border-radius: 6px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0;
+    margin-top: 50px;
+}
+.text_in{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    width: 104px;
+    height: 27px;
+    margin: auto;
+}
+.textz{
+    width: 136px;
+    height: 27px;
+    border-radius: 10px;
+    background-color: #191919;
+    /* margin-top: 60px; */
+    
+}
+.krug {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 112px;
+    height: 112px;
+    border-radius: 400px;
+    background-color: #118DA8;
+    color: #fff;
+    text-align: center;
+    margin-left: 135px;
+    font-size: 70px;
+    /* margin-top: 500px; */
+}
+.host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 126px;
+    height: 27px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0;
+    color: #118DA8;
+    margin-left: 130px;
+    /* margin-top: 30px; */
+}
+.ghost{
+    width: 496px;
+    height: 80px;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-size: 65px;
+    line-height: 79.2px;
+    letter-spacing: 0;
+    margin-left: 130px;
+}
+.information_about_Jacob{
+    width: 556px;
+    height: 66px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0;
+    color: #FFFFFFB2;
+    margin-left: 130px;
+    /* margin-top: 30px; */
+}
+.information2 {
+    width: 528px;
+    height: 66px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 33px;
+    letter-spacing: 0;
+    color: #FFFFFFB2;
+    margin-left: 130px;
+    /* margin-top: 30px; */
+}
+.Jacob22{
+        
+    width: 650px;
+    height: 743px;
+    border-radius: 12px;
+    
+}
+.Jacob_info_container{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+}
+.Jacob_text_container{
+    display: flex;
+    flex-direction: column;
+    height: 743.4375px;
+    /* align-content: center; */
+    justify-content: center;
+
+}
+.subscribe{
+    margin-top: 100px;
+    border-width: 50px;
+    height: 387px;
+    border-left: 50px;
+    border-radius: 32px;
+    background-color:  #000000;
+    border-style: solid;
+    border-color: #000000;
+    /* margin-left: ; */
+}
+.update{
+    margin-top: 30px;
+    border-width: 642px;
+    margin-left: 60px;
+    width: 431px;
+    height: 159px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 72px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+}
+.peshka{
+    margin-top: 100px;
+    width: 139px;
+    height: 27px;
+    margin-left: 60px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0;
+    color: #118DA8;
+}
+.information{
+    width: 522px;
+    height: 82px;
+    border-radius: 6px;
+    border: 1px;
+}
+.your_name{
+    width: 65px;
+    height: 29px;
+    left: 19px;
+    
+}
