@@ -34,8 +34,9 @@ body{
     border: 1px solid #DFDFDF;
     padding: 12px 12px;
     border-radius: 8px;
-    gap: 10px;
     margin-left: 0;
+    gap: 3px;
+    width: 352px;
 }
 
 .search-box img {
@@ -254,21 +255,23 @@ header {
         /* padding: ; */
     background-color: #111928;
     margin-bottom: 35px;
+    gap: 50px;
 }
 
 .logo4 {
     display: flex;
     justify-content: left;
     /* align-items: le; */
-    width: 300px;
+    width: 114px;
     height: 30px;
-    padding: 25px 36px;
+    margin-top: 25px;
+    margin-left: 25px;
 }
 
 .nav {
     display: flex;
     justify-content: center;
-    width: 405px;
+    width: 654px;
     height: 19px;
     gap: 40px;
     padding: 30px 36px;
@@ -288,7 +291,7 @@ header {
     display: flex;
     width: 500px;
     height: 44px;
-    gap: 10px;
+    gap: 50px;
     justify-content: space-between;
     border-radius: 10px;
     border: 1px solid #D6D8DE ;
@@ -312,5 +315,5 @@ header {
 }
 
 .search-box5 img{
-    padding: 10px;
+    padding: 20px;
 }
