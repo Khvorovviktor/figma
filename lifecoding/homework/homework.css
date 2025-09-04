@@ -270,7 +270,7 @@ header {
 
 .nav {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     width: 654px;
     height: 19px;
     gap: 40px;
