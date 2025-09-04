@@ -80,6 +80,7 @@ body{
     border-radius: 8px;
     padding: 12px;
     cursor: pointer;
+    border: none;
 }
 
 .active1 {
@@ -161,12 +162,14 @@ body{
 
 .btn-secondary2 {
     display: flex;
-    align-items: center;
+    justify-content: center;
     color: #FFFFFF;
+    align-items: center;
     font-family: "Inter";
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
+    border: none;
 }
 .buttons2 {
     width: 165px;

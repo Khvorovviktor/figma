@@ -122,7 +122,8 @@ body {
 
 .card3 {
     width: 360px;
-
+    border: 1px solid gray;
+    border-radius: 8px;
 }
 
 .forPadding {
@@ -171,4 +172,57 @@ body {
     font-weight: 600;
     font-size: 12px;
     line-height: 12px;
+}
+
+.btn3 {
+    background-color: #009AF0;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.card4 {
+    width: 380px;
+}
+
+.box1 {
+    padding: 50px 89px 50px 44px;
+}
+
+.title1 {
+    color: #2E363E;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 143%;
+    margin-bottom: 12px;
+}
+
+.description {
+    color: #2E363E;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 24px;
+}
+
+.cost {
+    color: #434B53;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    margin-bottom: 14px;
+}
+
+.btn4 {
+    background-color: #FED84C;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 152%;
+    border-radius: 8px;
+    border: none;
 }
