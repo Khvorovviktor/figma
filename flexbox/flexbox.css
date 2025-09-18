@@ -1,0 +1,207 @@
+.dm-sans-uniquifier {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+    background-color: #FFFFFFB2;
+    font-family: "DM-Sans", sans-serif;
+}
+
+
+
+.block {
+    display: block;
+    color: red;
+    margin-left: 30px;
+}
+
+.inline {
+    display: inline;
+    color: blue;
+    margin-left: 30px;
+}
+
+.flex {
+    display: flex;
+    color: gray;
+    margin-left: 30px;
+}
+
+.flex-container {
+    display: flex;
+    margin-left: 30px;
+}
+
+.noblock {
+    color: red;
+    margin-left: 30px;
+}
+
+.noinline {
+    color: blue;
+    margin-left: 30px;
+}
+
+.noflex {
+    color: gray;
+    margin-left: 30px;
+}
+
+.noflex-container {
+    background-color: #fff2;
+    margin-left: 30px;
+}
+
+.flex-containercolumn {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.flex-containerwrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-containerflow {
+    display: flex;
+    flex-flow: column-reverse;
+}
+
+.flex-containerjust {
+    background-color: #FFFFFFB2;
+}
+
+.flex-containerjust{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-containeralign{
+    display: flex;
+    align-items: center;
+}
+
+.flex-containeraligncon{
+    display: flex;
+    align-content: center;
+}
+
+.flexgrow {
+    flex-grow: 3;
+}
+
+.flexshrink {
+    flex-shrink: 5;
+}
+
+
+.flex {
+    flex: 2 3 100px;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-basis: 500px;
+}
+
+.flexbox2 {
+    width: 2000px;
+    background-color: gray;
+    border: 1px solid black;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    border-radius: 8px;
+    flex: 50% 1 100px;
+}
+
+.flexx1 {
+    background-color: green;
+    height: 80px;
+    flex: 0 0 50%;
+    margin-left: 5px;
+}
+
+.flexx2 {
+    background-color: red;
+    height: 80px;
+    flex: 1;
+    margin-left: 5px;
+}
+
+.flexx3 {
+    background-color: blue;
+    height: 80px;
+    flex: 100px;
+    margin-left: 5px;
+}
+
+.ssilka {
+    width: 2000px;
+    background-color: gray;
+    border: 1px solid black;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+.ssilka a {
+    text-decoration: none;
+    padding: 10px;
+    height: 15px;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.cards1 {
+    display: flex;
+    width: 2000px;
+    background-color: gray;
+    border: 1px solid black;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.card1 {
+    padding: 10px;
+    height: 15px;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 6px;
+    flex: 0 0 1px
+}
+
+.card2 {
+    padding: 10px;
+    height: 15px;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 6px;
+    flex-grow: 1;
+}
+
+.card3 {
+    height: 15px;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 6px;
+    flex-shrink: 2;
+}
+
+.card4 {
+    padding: 10px;
+    height: 15px;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 6px;
+    flex-basis: 300px;
+}
